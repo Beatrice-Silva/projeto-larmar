@@ -1,5 +1,5 @@
 import styles from "./cardServico.module.css"
-
+//import ;
 export default function cardServico ({foto,nome,categoria,duracao,preco}){
 
     return(
@@ -13,6 +13,8 @@ export default function cardServico ({foto,nome,categoria,duracao,preco}){
           height={20}
           priority
         />
+
+
         <div className={styles.intro}>
           <h1>
             To get started, edit the{" "}
