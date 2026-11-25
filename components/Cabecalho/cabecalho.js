@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import styles from "./cabecalho.module.css"
 import { USUARIOS } from "@/dados/exemplo";
