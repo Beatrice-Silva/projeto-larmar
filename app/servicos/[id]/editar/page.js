@@ -26,7 +26,7 @@ export default function EditarServico() {
             {servico ? (
                 <FormServico
                     categorias={categorias}
-                    servicoinicial={servico}
+                    servicoInicial={servico}
                     aoSalvar={salvar}
                 />
             ) : (

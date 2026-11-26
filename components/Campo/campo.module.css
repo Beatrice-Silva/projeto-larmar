@@ -1,8 +1,13 @@
 /* Campo.module.css */
 .campo { 
-    isplay: grid;
+    display: flex;
+    flex-direction: column;
     gap: 0.35rem; 
     margin-bottom: 1rem; 
+}
+
+.campo label{
+    font-weight: bold;
 }
 .campo input {
      width: 100%; 
@@ -13,4 +18,24 @@
      
 .campo small { 
     color: #a52222; 
+}
+.entrada, .comErro{
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+    background: var(--cor-superficie);
+}
+textarea.entrada, textarea.comErro{
+    min-height: 6rem;
+    resize: vertical;
+}
+
+.comErro{
+    border-color: var(--cor-perigo);
+}
+
+.erro{
+    color: var(--cor-perigo);
+    font-size: 0.9rem;
 }

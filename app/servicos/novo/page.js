@@ -1,10 +1,11 @@
 "use client"
 
 import { useRouter } from "next/navigation";
-import RotaProtegida from "@/components/RotaProtegida/RotaProtegida";
+import RotaProtegida from "@/components/RotaProtegida/rotaProtegida";
 import FormServico from "@/components/FormServico/formServico";
 import { categorias } from "@/dados/exemplo";
 
+//Rota /servicos/novo; ganha da pasta [id]
 export default function NovoServico() {
     const router = useRouter();
 

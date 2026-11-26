@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import Mensagem from "@/components/Mensagem/Mensagem";
+import Mensagem from "@/components/Mensagem/mensagem";
 import { useSessao } from "@/context/SessaoContext.module.css";
 import styles from "./RotaProtegida";
 

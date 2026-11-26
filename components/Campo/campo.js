@@ -1,6 +1,12 @@
 import styles from "./Campo.module.css";
 
-export default function Campo({ rotulo, id, type = "text", erro, ...props }) {
+export default function Campo({
+  rotulo, 
+  id, 
+  type = "text", 
+  erro, 
+  ...props }) {
+    
   return (
     <div className={styles.campo}>
       <label htmlFor={id}>{rotulo}</label>
