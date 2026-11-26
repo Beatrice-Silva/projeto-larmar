@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import RotaProtegida from "@/components/RotaProtegida/RotaProtegida";
-import FormServico from "@/components/FormServico/FormServico";
+import FormServico from "@/components/FormServico/formServico";
 import { categorias } from "@/dados/exemplo";
 
 export default function NovoServico() {

@@ -2,11 +2,10 @@
 
 import styles from "./Categorias.module.css";
 import { useState } from "react";
-import Campo from "@/components/Campo/Campo";
-import Botao from "@/components/Botao/Botao";
-import Mensagem from "@/components/Mensagem/Mensagem";
+import Campo from "@/components/Campo/campo";
+import Botao from "@/components/botao/botao";
+import Mensagem from "@/components/Mensagem/mensagem";
 import { useSessao } from "@/context/SessaoContext";
-import { categorias } from "@/dados/exemplo";
  
 export default function Categorias() {
     

@@ -3,8 +3,8 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Mensagem from "@/components/Mensagem/Mensagem";
-import { useSessao } from "@/context/SessaoContext";
-import styles from "./RotaProtegida.module.css";
+import { useSessao } from "@/context/SessaoContext.module.css";
+import styles from "./RotaProtegida";
 
 export default function RotaProtegida({ children }) {
   const router = useRouter();

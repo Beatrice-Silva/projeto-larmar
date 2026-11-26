@@ -1,13 +1,7 @@
-import { SERVICOS } from "@/dados/exemplo";
-import styles from "./cardServico.module.css"
-import  Link from "next/link";
-
 "use client";
 
-import { useState } from "react";
-// import Image from "next/image";
-import { servicos, categorias } from "@/dados/exemplo";
-import CardServico from "@/components/CardServico/CardServico";
+import Link from "next/link";
+import styles from "./CardServico.module.css"
 
 export default function cardServico ({servico}){
 

@@ -2,9 +2,8 @@
 
 import styles from "./detalhe.module.css";
 import { useParams, useRouter } from "react";
-import FormServico from "@/components/FormServico/FormServico";
-import RotaProtegida from "@/components/RotaProtegida/RotaProtegida";
-import  Mensagem  from "@/components/Mensagem/Mensagem";
+import Botao from "@/components/botao/botao";
+import Mensagem from "@/components/Mensagem/mensagem";
 import { servicos, categorias } from "@/dados/exemplo";   
 
 

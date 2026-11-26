@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import Cabecalho from "@/components/Cabecalho/Cabecalho";
+import Cabecalho from "@/components/Cabecalho/cabecalho";
 import Carregando from "@/components/Carregando/Carregando";
 import "./globals.css";
 

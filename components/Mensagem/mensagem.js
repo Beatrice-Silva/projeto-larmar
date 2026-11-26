@@ -1,4 +1,4 @@
-import styles from "./Mensagem.module.css";
+import styles from ".mensagem.module.css";
 
 export default function Mensagem({ tipo = "info", children }) {
   if (!children) return null;

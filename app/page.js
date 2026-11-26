@@ -1,11 +1,9 @@
-
+"use client"
 import { useState } from "react";
-//import Image from "next/image";
 import { servicos, categorias } from "@/dados/exemplo";
 import CardServico from "@/components/CardServico/CardServico";
 import FiltroCategorias from "@/components/FiltroCategorias/FiltroCategorias";
 import Mensagem from "@/components/Mensagem/mensagem";
-import Cabecalho from "@/components/Cabecalho/cabecalho";
 import styles from "./page.module.css";
 
 //lista de servicos com o filtro

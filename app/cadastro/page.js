@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import Campo from "@/components/Campo/Campo";
-import Botao from "@/components/Botao/Botao";
-import Mensagem from "@/components/Mensagem/Mensagem";
+import Campo from "@/components/Campo/campo";
+import Botao from "@/components/botao/botao";
+import Mensagem from "@/components/Mensagem/mensagem";
 import styles from "./cadastro.module.css";
 
 // Rota "/cadastro" criar conta (nome, e-mail e senha), no mesmo jeito do login.
