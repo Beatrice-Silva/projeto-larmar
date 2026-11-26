@@ -1,17 +1,15 @@
-import styles from "./mensagem.module.css"
+import styles from "./Mensagem.module.css";
 
+export default function Mensagem({ tipo = "info", children }) {
+  if (!children) return null;
 
-export default function Mensagem({tipo = "info", children}) {
-    if(!children) return null; 
-    return(
-        <p className={`${styles.mensagem} ${styles[tipo]}`} 
-        role={tipo === "erro" ? "alert" : "status"}
-        >
-            {children}
-            </p>
-    )
-
+  return (
+    <p className={styles[tipo]} role={tipo === "erro" ? "alert" : "status"}>
+      {children}
+    </p>
+  );
 }
+
 
 /*
 <Mensagem tipo="erro">{erro}</Mensagem>

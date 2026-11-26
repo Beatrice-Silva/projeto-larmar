@@ -1,0 +1,21 @@
+"use client";
+
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import Mensagem from "@/components/Mensagem/Mensagem";
+import { useSessao } from "@/context/SessaoContext";
+import styles from "./RotaProtegida.module.css";
+
+export default function RotaProtegida({ children }) {
+  const router = useRouter();
+  const { usuario, carregando } = useSessao();
+
+  useEffect(() => {
+    if (!carregando && !usuario) router.replace("/login");
+  }, [carregando, usuario, router]);
+
+  if (carregando) return <Mensagem>Carregando sessão...</Mensagem>;
+  if (!usuario) return null;
+
+  return <div className={styles.conteudo}>{children}</div>;
+}

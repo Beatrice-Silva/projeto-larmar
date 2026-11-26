@@ -1,0 +1,23 @@
+/* Botao.module.css */
+.botao { 
+    padding: 0.65rem 1rem; 
+    border: 0; 
+    border-radius: 0.5rem; 
+    cursor: pointer; 
+}
+
+.primario { 
+    background: #1d4ed8; 
+    color: white; 
+}
+
+.secundario { 
+    background: #e5e7eb; 
+    
+    color: #111827; 
+}
+
+.perigo { 
+    background: #b91c1c; 
+    color: white; 
+}

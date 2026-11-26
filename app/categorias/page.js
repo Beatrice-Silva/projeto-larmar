@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import styles from "./Categorias.module.css";
 import { useState } from "react";
@@ -6,10 +6,7 @@ import Campo from "@/components/Campo/Campo";
 import Botao from "@/components/Botao/Botao";
 import Mensagem from "@/components/Mensagem/Mensagem";
 import { useSessao } from "@/context/SessaoContext";
-import { categorias as categoriasExemplo } from "@/dados/exemplo";
-import styles from "./Categorias.module.css";
-import Mensagem from "@/components/Mensagem/mensagem";
-
+import { categorias } from "@/dados/exemplo";
  
 export default function Categorias() {
     

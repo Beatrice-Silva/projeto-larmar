@@ -1,0 +1,16 @@
+/* Campo.module.css */
+.campo { 
+    isplay: grid;
+    gap: 0.35rem; 
+    margin-bottom: 1rem; 
+}
+.campo input {
+     width: 100%; 
+     min-width: 0; 
+     box-sizing: border-box; 
+     padding: 0.65rem;
+     }
+     
+.campo small { 
+    color: #a52222; 
+}

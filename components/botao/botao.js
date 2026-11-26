@@ -1,11 +1,18 @@
+import styles from "./Botao.module.css";
 
-import styles from "./botao.module.css"
-
-export default function Botao({ variante = "principal", children, ...resto }) {
-return (
-    
-    <button className={`${styles.botao} ${styles[variante]}`} {...resto}>
-    {children}
+export default function Botao({
+  children,
+  type = "button",
+  variante = "primario",
+  ...props
+}) {
+  return (
+    <button
+      {...props}
+      type={type}
+      className={`${styles.botao} ${styles[variante] ?? ""}`}
+    >
+      {children}
     </button>
-);
+  );
 }
