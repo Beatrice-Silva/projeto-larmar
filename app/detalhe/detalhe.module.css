@@ -1,0 +1,32 @@
+.detalhe{
+    max-width: 640px;
+}
+
+.categoria{
+    display: inline-block;
+    padding: 0.2rem 0.7rem;
+    border-radius: var(--raio);
+    background: var(--cor-superficie);
+    border: 1px solid var(--cor-borda);
+    font-size: 0.9rem;
+}
+
+.info{
+    font-size: 1.1rem;
+}
+.acoes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.editar{
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--cor-principal);
+    border-radius: var(--raio);
+    color: var(--cor-principal);
+    font-weight: bold;
+    text-decoration: none;
+}

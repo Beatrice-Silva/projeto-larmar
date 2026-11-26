@@ -1,0 +1,20 @@
+.lista {
+  list-style: none;
+  margin: var(--espaco) 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.item {
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+  background: var(--cor-superficie);
+}
+
+.formulario {
+  max-width: 420px;
+  margin-top: 2rem;
+}

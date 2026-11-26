@@ -9,6 +9,15 @@
   --button-secondary-hover: #f2f2f2;
   --button-secondary-border: #ebebeb;
 
+  .grade {
+  list-style: none;
+  margin: var(--espaco) 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--espaco);
+}
+
   display: flex;
   flex: 1;
   flex-direction: column;
